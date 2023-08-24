@@ -75,7 +75,7 @@ function ForgotPassword() {
     }
   
     return (
-      <div>
+      <div className='ctotTable'>
           <NavbarAdmin />
           <div style={{textAlign: 'center'}}>
               <h1>ผู้ใช้ที่ลืมรหัสผ่าน</h1>

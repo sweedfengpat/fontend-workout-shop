@@ -82,7 +82,7 @@ function AddProduct() {
   };
 
   return (
-    <div>
+    <div className='ctotTable'>
                       <NavbarAdmin />
       <Container component="main" maxWidth="xs">
         <CssBaseline />

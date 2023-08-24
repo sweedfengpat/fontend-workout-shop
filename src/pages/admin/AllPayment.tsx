@@ -67,7 +67,7 @@ function AllPayment() {
 
   
     return (
-      <div>
+      <div className='ctotTable'>
           <NavbarAdmin />
           <div style={{textAlign: 'center'}}>
               <h1>ยอดขายรายเดือน</h1>

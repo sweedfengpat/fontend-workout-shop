@@ -62,7 +62,7 @@ function Order() {
     };
   
     return (
-      <div>
+      <div className='ctotTable'>
           <NavbarAdmin />
           <div style={{textAlign: 'center'}}>
               <h1>ตรวจสอบการสั่งซื้อ</h1>

@@ -20,7 +20,7 @@ function Track() {
 
 
   return (
-    <div>
+    <div className='ctotTable'>
             <NavbarAdmin />
           <div style={{textAlign: 'center'}}>
               <h1>ส่งข้อมูลขนส่งพัสดุ</h1>

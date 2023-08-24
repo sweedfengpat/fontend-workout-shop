@@ -10,6 +10,7 @@ import Paper from '@mui/material/Paper';
 import Button from '@mui/material/Button';
 import axios from "axios";
 import { baseURL }from '../../url'
+import "./index.css"
 
 function createData(
   id: number,
@@ -56,7 +57,7 @@ function ManageProduct() {
   };
 
   return (
-    <div>
+    <div className='ctotTable'>
         <NavbarAdmin />
         <div style={{textAlign: 'center'}}>
             <h1>จัดการสินค้า</h1>

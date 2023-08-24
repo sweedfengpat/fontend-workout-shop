@@ -102,7 +102,7 @@ function OrderID() {
   
   
     return (
-      <div>
+      <div className='ctotTable'>
           <NavbarAdmin />
           <div style={{textAlign: 'center'}}>
               <div className='row' style={{textAlign: 'left'}}>

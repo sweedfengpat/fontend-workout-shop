@@ -46,7 +46,7 @@ function EditCategory() {
 
             
     return (
-        <div>
+        <div className='ctotTable'>
         <NavbarAdmin />
         <div style={{textAlign: 'center'}}>
             <h1>แก้ไขประเภทสินค้า</h1>

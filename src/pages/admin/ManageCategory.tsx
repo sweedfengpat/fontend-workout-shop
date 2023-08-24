@@ -10,7 +10,8 @@ import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
 import axios from "axios";
 import { baseURL }from '../../url'
-
+import React, { useEffect } from 'react';
+import "./index.css"
 function createData(
   id: number,
   name: string,
@@ -73,10 +74,10 @@ function ManageCategory() {
   };
 
   return (
-    <div>
+    <div className='ctotTable'>
         <NavbarAdmin />
-        <div style={{textAlign: 'center'}}>
-            <h1>จัดการประเภทสินค้า</h1>
+        <div style={{textAlign: 'center',minHeight:"100vh",gridTemplate:"initial", gridTemplateRows:"1fr ,1fr"}}>
+            <h1>จัดการประเภทสินค้า12</h1>
 
             <div>
             <TextField

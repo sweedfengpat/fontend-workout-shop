@@ -1,0 +1,4 @@
+.ctoTable{
+    display: grid;
+    columns: 1fr 1fr;
+}

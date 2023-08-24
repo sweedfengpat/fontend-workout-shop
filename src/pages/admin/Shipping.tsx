@@ -85,7 +85,7 @@ function Shipping() {
     }
   
     return (
-      <div>
+      <div className='ctotTable'>
           <NavbarAdmin />
           <div style={{textAlign: 'center'}}>
               <h1>ตรวจสอบการส่งสินค้า</h1>
