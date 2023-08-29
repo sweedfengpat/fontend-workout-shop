@@ -77,7 +77,7 @@ function ManageCategory() {
     <div className='ctotTable'>
         <NavbarAdmin />
         <div style={{textAlign: 'center',minHeight:"100vh",gridTemplate:"initial", gridTemplateRows:"1fr ,1fr"}}>
-            <h1>จัดการประเภทสินค้า12</h1>
+            <h1>จัดการประเภทสินค้า</h1>
 
             <div>
             <TextField

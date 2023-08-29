@@ -113,7 +113,7 @@ if (amount > 1) {
             <TableCell>สินค้า</TableCell>
             <TableCell align="center">ราคา</TableCell>
             <TableCell align="center">จำนวน</TableCell>
-            <TableCell align="center">ยอดรวม</TableCell>
+            
             <TableCell align="center">ลบ</TableCell>
           </TableRow>
         </TableHead>
@@ -134,7 +134,7 @@ if (amount > 1) {
                 }} />
               <Button variant="outlined" color='error' onClick={() => {addAmount(row.productAmount, row.productAmountData, row.id, row.productPrice)}}>+</Button>
               </TableCell>
-            <TableCell align="center" id='total'>{total}</TableCell>
+            
             <TableCell align="center">
             <Button variant="contained" color='error' onClick={() => {delete_item(row.id)}}>ลบ</Button>  
             </TableCell>
