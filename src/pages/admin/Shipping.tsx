@@ -95,9 +95,9 @@ function Shipping() {
                     <TableRow>
                       <TableCell>รหัส</TableCell>
                       <TableCell align="center">วันที่ทำรายการ</TableCell>
-                      <TableCell align="center">สถานะ (เรียบร้อย คือส่งถึงปลายทาง)</TableCell>
+                      <TableCell align="center">สถานะ (จัดส่งแล้ว)</TableCell>
                       <TableCell align="center">เปลี่ยนสถานะ</TableCell>
-                      <TableCell align="center">ส่งข้อมูลขนส่งพัสดุ</TableCell>
+                      <TableCell align="center">ส่งข้อมูลพัสดุ</TableCell>
                     </TableRow>
                   </TableHead>
                   <TableBody>

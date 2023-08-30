@@ -15,15 +15,11 @@ function Track() {
     const [code, setCode] = React.useState<string>("");
     const [description, setDescription] = React.useState<string>("");
     
-
-
-
-
   return (
     <div className='ctotTable'>
             <NavbarAdmin />
           <div style={{textAlign: 'center'}}>
-              <h1>ส่งข้อมูลขนส่งพัสดุ</h1>
+              <h1>ส่งข้อมูลขพัสดุ</h1>
 
               <form>
                 <TextField

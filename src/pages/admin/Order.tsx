@@ -12,6 +12,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import { Link } from 'react-router-dom';
 import axios from "axios";
 import { baseURL }from '../../url'
+import NativeSelect from '@mui/material/NativeSelect';
 
 
 function createData(
@@ -87,12 +88,18 @@ function Order() {
                         <TableCell align="center">{row.date}</TableCell>
 
                         <TableCell align="center">
-                        <select className='form-control' onChange={(event) => handleChange(row.id, event)}>
+                        {/* <select className='form-control' onChange={(event) => handleChange(row.id, event)}>
                             <option value="รอตรวจสอบ">รอตรวจสอบ</option>
                             <option value="ชำระแล้ว">ชำระแล้ว</option>
                             <option value="ล้มเหลว">ล้มเหลว</option>
-                        </select>
+                        </select> */}
+                          <NativeSelect id="select">
+                              <option value="รอตรวจสอบ">รอตรวจสอบ</option>
+                              <option value="ชำระแล้ว">ชำระแล้ว</option>
+                              <option value="ล้มเหลว">ล้มเหลว</option>
+                          </NativeSelect>
                         </TableCell>
+                      
                       </TableRow>
                     ))}
                   </TableBody>
